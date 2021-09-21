@@ -1,0 +1,222 @@
+/* ====================================================
+  Template Name: Rafiqul Islam.
+  Description: Personal Portfolio HTML5 landing page
+  Author: Rafiq.
+  version: 1.0
+==================================================== */
+
+
+/* CSS Index
+------------------------------------
+
+01. Template Default CSS 
+02. header css
+
+
+
+
+
+
+*/
+
+/* ====================================================
+  Google Fonts
+==================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* ====================================================
+  Template Default CSS
+==================================================== */
+
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f1f3f6;
+
+
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: none;
+}
+
+
+
+
+.section-title {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  padding-bottom: 60px;
+  margin-left: 14px;
+  color: #5e5c7f;
+
+}
+
+
+
+
+/* ====================================================
+  Template main CSS
+==================================================== */
+/* ==============
+    header-css 
+==================*/
+a.navbar-brand,
+li.nav-item a {
+  color: #212529;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+
+.col {
+  padding-top: 150px;
+}
+
+.col h2 {
+  color: #5e5c7f;
+  font-size: 36px;
+}
+
+.col h4 {
+  color: #5e5c7f;
+  font-size: 18px;
+}
+
+.card-body h4 {
+  color: #ffbe30;
+}
+
+.card-body h5,
+p {
+  color: #5e5c7f;
+}
+
+/* ==============
+     services-css 
+==================*/
+
+
+
+
+.services-icon.h2.theme-color {
+  color: #ffbe1a;
+
+}
+
+.services-title h6 {
+
+  color: #ffbe1a;
+  font-size: 18px;
+
+}
+
+
+/* ==============
+     blog-css 
+==================*/
+
+#blogs {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+
+}
+
+.blogs-item {
+  box-shadow: 0 5px 20px 0 rgb(69 67 96 / 10%);
+  background: #fff;
+  border-radius: 20px !important;
+}
+
+
+.blogs-info h2 {
+  font-size: 20px;
+  color: #454360;
+  padding: 2px 2px 2px 2px;
+}
+
+
+
+/* ==============
+     footer-css 
+==================*/
+
+
+
+footer.footer.light {
+  background: #f1f3f6;
+  border-top: solid 1px rgba(0, 0, 0, .05);
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+
+/* ==============
+     responsive-css 
+==================*/
+
+
+/*=============== RESPONSIVE ===============*/
+
+
+/* MOBILE DEVISE  */
+
+@media only screen and (max-width:688px) {
+
+
+  .blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+
+/* tablat DEVISE  */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+
+  .blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+}
+
+
+/* laptop DEVISE  */
+
+@media only screen and (min-width:992px) and (max-width:1697px) {
+
+
+  .blog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
